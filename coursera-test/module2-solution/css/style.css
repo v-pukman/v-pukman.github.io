@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  text-align: center;
+}
+#content {
+  padding-right: 20px;
+}
+.row {
+  width: 100%;
+}
+.item {
+  position: relative;
+  float: left;
+  /*border: 1px solid red;*/
+}
+.item-container {
+  border: 1px solid black;
+  padding: 15px 5px 0px 5px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: #f1f1f1;
+}
+
+@media (min-width: 992px) {
+  .item {
+    width: 33.33%;
+  }
+  .item:nth-last-child(1):nth-child(even) {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .item {
+    width: 50%;
+  }
+  .item:nth-last-child(1):nth-child(odd) {
+    width: 100%;
+  }
+}
+
+
+.item-name {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 1px solid black;
+  padding: 5px 20px 5px 20px;
+  background-color: #3e9e85;
+  font-weight: bolder;
+  border: 2px solid black;
+}
+
+.banana {
+  background-color: #ffe309;
+}
+.apple {
+  background-color: #95fb75;
+}
+.strawberry {
+  background-color: #f57b7b;
+}
+
