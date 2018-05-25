@@ -48,9 +48,14 @@ body {
 }
 
 
-#site-content-text {
-  padding: 15px 5px 10px 5px;
-  margin: 5px;
+#site-content-text .site-column {
+  padding: 15px 15px 15px 15px;
   background-color: #fdf3dc;
+  margin-bottom: 15px;
 }
+
+#site-content-text h3 {
+  margin-top: 0;
+}
+
 
