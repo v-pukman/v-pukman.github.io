@@ -8,9 +8,15 @@ body {
   border: 0;
 }
 
-#site-nav .navbar-brand {
+#site-nav h1 { /* Restaurant name */
   color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
   text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
 }
 
 #site-nav .navbar-toggle {
@@ -20,8 +26,6 @@ body {
 #site-nav .navbar-toggle:hover {
   background-color: #dad6d6;
 }
-
-
 
 #site-nav-menu li.active a,
 #site-nav-menu a:hover {
@@ -41,5 +45,12 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   background-color: #ffe6ac;
+}
+
+
+#site-content-text {
+  padding: 15px 5px 10px 5px;
+  margin: 5px;
+  background-color: #fdf3dc;
 }
 
